@@ -1,0 +1,36 @@
+{
+    "name": "gapi-test",
+    "version": "0.1.0",
+    "private": true,
+    "description": "A playground to explore the Google APIs.",
+    "author": "Brock Denson <mbdenson@gmail.com>",
+    "license": "ISC",
+    "scripts": {
+        "build": "webpack -p",
+        "start": "webpack-dev-server --mode=development --open"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "autoprefixer": "^9.7.5",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^1.0.1",
+        "extract-loader": "^3.1.0",
+        "file-loader": "^5.1.0",
+        "node-sass": "^4.13.1",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.3.1",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    },
+    "dependencies": {
+        "@material/button": "^4.0.0",
+        "@material/mwc-button": "^0.14.1",
+        "@material/ripple": "^4.0.0",
+        "@material/typography": "^4.0.0",
+        "@webcomponents/webcomponentsjs": "^2.4.3",
+        "googleapis": "^48.0.0",
+        "mithril": "^2.0.4"
+    }
+}

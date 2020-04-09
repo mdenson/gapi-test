@@ -1,0 +1,7 @@
+dist/
+!dist/index.html
+credentials.json
+api-key.json
+
+node_modules
+.vscode
